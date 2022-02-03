@@ -1,3 +1,7 @@
+body{
+  max-width: 1250px;
+  margin: auto;
+}
 h1 {
   margin-top: 15px;
   padding: 10px;
@@ -26,18 +30,24 @@ li {
   position: relative;
 }
 .content__img img{
+  padding: absolute;
   margin: 10% 0 0 auto;
   /* margin-top: 10%; */
   width: 50%;
   display: flex;
   justify-content: flex-end;
-  z-index: 10;
+  z-index: 1;
 }
 h2 {
+  position: absolute;
   font-size: 50px;
+  top: 200px;
 }
 .content__color {
   position: absolute;
   background-color: blue;
-  z-index: 0;
+  width: 1000px;
+  height: 200px;
+  top: 250px;
+  z-index: -1;
 }
