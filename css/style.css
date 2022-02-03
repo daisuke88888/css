@@ -2,12 +2,18 @@ body{
   max-width: 1250px;
   margin: auto;
 }
+/* .header {
+  display: flex;
+  height:60px;
+  align-items: center;
+} */
 h1 {
-  margin-top: 15px;
+  margin:10px 0 0 30px;
   padding: 10px;
   color: blue;
   font-weight: bold;
   font-size: 25px;
+  float: left;
 }
 .list__menu {
   display: flex;
@@ -16,6 +22,8 @@ h1 {
   list-style: none;
   color: blue;
   font-weight: bold;
+  margin-top: 15px;
+  padding: 10px;
 }
 .list {
   list-style: none;
